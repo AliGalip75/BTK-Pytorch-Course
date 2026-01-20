@@ -142,3 +142,4 @@ if __name__ == "__main__":
     visualize(4)
     train_model(model, train_loader, criterion, optimizer, epochs=5)
     evaluate_model(model, test_loader, "Test")
+    evaluate_model(model, train_loader, "Train")
